@@ -1,0 +1,21 @@
+{
+  "name": "x-stylelint",
+  "version": "1.0.0",
+  "description": "style lint for all projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.xinanli.cn:7999/eshrefactor/dev-env-config.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "stylelint": "^12.0.0",
+    "stylelint-config-prettier": "^8.0.0",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-prettier": "^1.1.1"
+  }
+}
