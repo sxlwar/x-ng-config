@@ -7,7 +7,11 @@
 ## 安装
 
 ```bash
-npm install --save-dev <xal-config>; // TODO
+npm install --save-dev <xal-config>
+
+cd <project root>
+
+./node_modules/xal-config/xal-config.sh
 ```
 
 ## 使用方法
