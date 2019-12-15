@@ -1,24 +1,22 @@
-"use strict";
-
-module.exports = {
-  extends: [
+{
+  "extends": [
     "tslint:recommended",
     "tslint-plugin-prettier",
     "tslint-config-prettier"
   ],
-  rules: {
+  "rules": {
     "array-type": false,
     "arrow-parens": false,
     "component-class-suffix": true,
     "component-selector": [true, "element", "app", "kebab-case"],
     "contextual-lifecycle": true,
     "cyclomatic-complexity": [true, 5],
-    deprecation: {
-      severity: "warning"
+    "deprecation": {
+      "severity": "warning"
     },
     "directive-class-suffix": true,
     "directive-selector": [true, "attribute", "app", "camelCase"],
-    forin: true,
+    "forin": true,
     "import-blacklist": [true, "rxjs/Rx"],
     "interface-name": false,
     "max-classes-per-file": false,
@@ -52,20 +50,20 @@ module.exports = {
     "ordered-imports": true,
     "prefer-conditional-expression": [true, "check-else-if"],
     "prefer-const": true,
-    prettier: true,
-    quotemark: [true, "single"],
-    radix: true,
+    "prettier": true,
+    "quotemark": [true, "single"],
+    "radix": true,
     "template-banana-in-box": true,
     "template-no-negated-async": true,
     "trailing-comma": [
       true,
       {
-        multiline: "always",
-        singleline: "never"
+        "multiline": "always",
+        "singleline": "never"
       }
     ],
     "use-lifecycle-interface": true,
     "use-pipe-transform-interface": true
   },
-  rulesDirectory: ["codelyzer"]
-};
+  "rulesDirectory": ["codelyzer"]
+}
