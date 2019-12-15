@@ -7,7 +7,7 @@
 ## 安装
 
 ```bash
-npm install --save-dev <x-configname>; // TODO
+npm install --save-dev <xal-config>; // TODO
 ```
 
 ## 使用方法
