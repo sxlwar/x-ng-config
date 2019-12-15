@@ -6,7 +6,7 @@ In the tslint.json that you want to extends the rules of 'x-tslint', add the con
 
 ```json
 {
-  "extends": ["x-tslint"],
+  "extends": ["xal-tslint/tslint/index.json"],
   // ... other rules to be override.
 }
 ```
