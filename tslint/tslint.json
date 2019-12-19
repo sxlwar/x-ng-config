@@ -1,9 +1,9 @@
 {
   "extends": [
     "tslint:recommended",
-    "tslint-plugin-prettier",
     "tslint-config-prettier"
   ],
+  "rulesDirectory": ["tslint-plugin-prettier"], 
   "rules": {
     "array-type": false,
     "arrow-parens": false,
