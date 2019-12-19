@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cat > commintlint.config.js << END_TEXT
+cat > commitlint.config.js << END_TEXT
 const { commitlint } = require('xal-config');
 
 module.exports = commitlint;
@@ -24,7 +24,7 @@ rm -rf tsconfig.json
 
 cat > tsconfig.json << END_TEXT
 {
-  "extends": "x-tsconfig/tsconfig/index.json"
+  "extends": "xal-config/tsconfig/index.json"
 }
 
 END_TEXT
@@ -34,7 +34,7 @@ rm -rf tslint.json
 cat > tslint.json << END_TEXT
 
 {
-  "extends": ["xal-tslint/tslint/index.json"]
+  "extends": ["xal-config/tslint/index.json"]
 }
 
 END_TEXT

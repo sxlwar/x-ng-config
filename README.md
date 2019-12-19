@@ -17,3 +17,9 @@ cd <project root>
 ## 使用方法
 
 见各子项目 README
+
+## publish
+
+```bash
+npm adduser (then enter your name and complex password and your email)
+```
