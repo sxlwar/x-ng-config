@@ -24,7 +24,7 @@ rm -rf tsconfig.json
 
 cat > tsconfig.json << END_TEXT
 {
-  "extends": "xal-config/tsconfig/index.json"
+  "extends": "xal-config/tsconfig"
 }
 
 END_TEXT
@@ -34,7 +34,7 @@ rm -rf tslint.json
 cat > tslint.json << END_TEXT
 
 {
-  "extends": ["xal-config/tslint/index.json"]
+  "extends": ["xal-config/tslint"]
 }
 
 END_TEXT
