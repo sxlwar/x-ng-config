@@ -1,7 +1,7 @@
 {
   "name": "xal-config",
   "version": "0.0.5",
-  "description": "xal-config",
+  "description": "Configurations shared between typescript projects.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,13 @@
     "url": "https://registry.npmjs.org/"
   },
   "keywords": [
-    "xal-config"
+    "config",
+    "xal",
+    "tsconfig",
+    "tslint",
+    "stylelint",
+    "commitlint",
+    "prettier"
   ],
   "author": "",
   "license": "ISC"

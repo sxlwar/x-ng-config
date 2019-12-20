@@ -1,5 +1,5 @@
 {
-  "name": "x-stylelint",
+  "name": "@xal-config/stylelint",
   "version": "1.0.0",
   "description": "style lint for all projects",
   "main": "index.js",

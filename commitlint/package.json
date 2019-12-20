@@ -1,7 +1,7 @@
 {
-  "name": "x-commitlint",
+  "name": "@xal-config/commitlint",
   "version": "1.0.0",
-  "description": "",
+  "description": "Commitlint configurations shared between different projects.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

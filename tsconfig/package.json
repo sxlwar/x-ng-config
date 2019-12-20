@@ -1,5 +1,5 @@
 {
-  "name": "x-tsconfig",
+  "name": "@xal-tsconfig/tsconfig",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
