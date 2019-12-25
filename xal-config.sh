@@ -38,3 +38,12 @@ cat > tslint.json << END_TEXT
 }
 
 END_TEXT
+
+# create .prettierc for vscode
+
+touch .prettierrc
+
+file="./node_modules/xal-config/prettier/index.js"
+start=`grep -n "module.exports" $file | head -1 | cut -d ":" -f 1`
+
+cat $file | tail -n +$start | sed 's/module.exports = //' > .prettierrc
