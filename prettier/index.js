@@ -2,8 +2,10 @@
 
 module.exports = {
   "singleQuote": true,
-  "trailingComma": "all",
+  "trailingComma": "es5",
   "tabWidth": 2,
   "printWidth": 120,
-  "endOfLine": "lf"
+  "endOfLine": "lf",
+  "useTabs": false,
+  "bracketSpacing": true
 }
