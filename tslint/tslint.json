@@ -1,9 +1,6 @@
 {
-  "extends": [
-    "tslint:recommended",
-    "tslint-config-prettier"
-  ],
-  "rulesDirectory": ["tslint-plugin-prettier"], 
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "rulesDirectory": ["codelyzer"],
   "rules": {
     "array-type": false,
     "arrow-parens": false,
@@ -11,11 +8,10 @@
     "component-selector": [true, "element", "app", "kebab-case"],
     "contextual-lifecycle": true,
     "cyclomatic-complexity": [true, 5],
-    "deprecation": {
-      "severity": "warning"
-    },
+    "deprecation": { "severity": "warning" },
     "directive-class-suffix": true,
     "directive-selector": [true, "attribute", "app", "camelCase"],
+    "eofline": true,
     "forin": true,
     "import-blacklist": [true, "rxjs/Rx"],
     "interface-name": false,
@@ -50,7 +46,6 @@
     "ordered-imports": true,
     "prefer-conditional-expression": [true, "check-else-if"],
     "prefer-const": true,
-    "prettier": true,
     "quotemark": [true, "single"],
     "radix": true,
     "template-banana-in-box": true,
@@ -69,6 +64,5 @@
     ],
     "use-lifecycle-interface": true,
     "use-pipe-transform-interface": true
-  },
-  "rulesDirectory": ["codelyzer"]
+  }
 }

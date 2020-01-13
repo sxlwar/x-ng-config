@@ -9,7 +9,7 @@ const types = ['build', 'chore', 'ci', 'docs', 'feat', 'fix', 'perf', 'refactor'
 const scopes = ['showcase', 'packaging', 'changelog', 'schematics', 'module:*', '#*'];
 
 function parseMessage(message) {
-  const PATTERN = /^(\w+)(?:\(([^)]+)\))?\: (.+)$/;
+  const PATTERN = /^(\w+)(?:\(([^)]+)\))?\: ([^\u4e00-\u9fa5]+)$/;
   const match = PATTERN.exec(message);
   if (!match) {
     return null;
