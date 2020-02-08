@@ -28,11 +28,13 @@ module.exports = {
       "always",
       { except: ["after-single-line-comment", "first-nested"] }
     ],
+    "selector-pseudo-element-no-unknown": [true, {
+      ignorePseudoElements: ["ng-deep"],
+    }],
     "selector-type-no-unknown": [
       true,
       { ignore: ["custom-elements", "default-namespace"] }
     ],
-
     "selector-class-pattern": [
       "^([a-z][a-z0-9]*)(-[a-z0-9]+)*$",
       { message: "Class name must be kebab-case style" }
